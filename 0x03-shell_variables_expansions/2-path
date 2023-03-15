@@ -1,0 +1,2 @@
+#!/bin/bash
+export PATH=$(echo $PATH | sed -e "s|/action:||g")/action
