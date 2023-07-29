@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that displays :content of the current directory, list format,
+# Part of the name after the first dash is displayed
+# Uses for loop
+
+for _ in *
+do
+    echo "$_" | cut -f 2 -d '-'
+done
