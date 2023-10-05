@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/usr/bin/env bash
 # Gets the list of listening ports and associated PIDs
 
 listening_ports=$(netstat -tuln | awk '$6 == "LISTEN" {print $4, $7}')
