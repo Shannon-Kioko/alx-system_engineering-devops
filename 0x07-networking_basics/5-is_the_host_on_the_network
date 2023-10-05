@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/usr/bin/env bash
 # Check if the script is called with an argument
 
 if [ "$#" -ne 1 ]; then
