@@ -2,7 +2,7 @@
 
 Contained in this directory is a collaboration in whiteboarding of different Web Infrastructure Designs by myself and @John Ombuya.
 Knowledge in the following topics was necessary:
-. DNS
+> DNS
 * Monitoring
 * Web Server
 * Network basics
