@@ -2,7 +2,7 @@
 
 Contained in this directory is a collaboration in whiteboarding of different Web Infrastructure Designs by myself and @John Ombuya.
 Knowledge in the following topics was necessary:
-> DNS
+> [DNS](https://howdns.works/ep1/)
 * Monitoring
 * Web Server
 * Network basics
@@ -15,4 +15,4 @@ Knowledge in the following topics was necessary:
 * How to avoid downtime when deploying new code
 * High availability cluster (active-active/active-passive)
 * What is HTTPS
-* What is a firewall
+* [What is a firewall](https://www.instantssl.com/http-vs-https)
