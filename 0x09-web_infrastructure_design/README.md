@@ -1,4 +1,4 @@
-##Web Infrastructure Design
+## Web Infrastructure Design
 
 Contained in this directory is a collaboration in whiteboarding of different Web Infrastructure Designs by myself and @wxllxngton.
 Knowledge in the following topics was necessary:
