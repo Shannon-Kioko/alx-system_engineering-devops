@@ -1,7 +1,7 @@
 ### Description:
 This is a 3-server web infrastructure designed to be secure, monitored, and to serve encrypted traffic. It is built to protect against unauthorized access, ensure privacy through encryption, and continuously monitor the servers and network for performance and security.
 
-<img src="https://imgur.com/9ExiESl">
+<img href="https://imgur.com/9ExiESl">
 
 ### Specifics About This Infrastructure:
 #### The purpose of the firewalls:
