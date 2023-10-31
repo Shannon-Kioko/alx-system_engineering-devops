@@ -1,19 +1,20 @@
-Secured and Monitored Web Infrastructure
-Image of a secured and monitored infrastructure
+### Description:
+This is a 3-server web infrastructure designed to be secure, monitored, and to serve encrypted traffic. It is built to protect against unauthorized access, ensure privacy through encryption, and continuously monitor the servers and network for performance and security.
 
-Visit Board
+<img src="https://imgur.com/9ExiESl">
 
-Description
-This is a 3-server web infrastructure that is secured, monitored, and serves encrypted traffic.
+### Specifics About This Infrastructure:
+#### The purpose of the firewalls:
+The firewalls serve as a protective barrier for the network, particularly the web servers, by acting as intermediaries between the internal and external networks. They play a crucial role in blocking incoming traffic that matches criteria for being unwanted and unauthorized. This protection helps safeguard the network from potential threats and cyberattacks.
 
-Specifics About This Infrastructure
-The purpose of the firewalls.
-The firewalls are for protecting the network (web servers, anyway) from unwanted and unauthorized users by acting as an intermediary between the internal network and the external network and blocking the incoming traffic matching the aforementioned criteria.
-The purpose of the SSL certificate.
-The SSL certificate is for encrypting the traffic between the web servers and the external network to prevent man-in-the-middle attacks (MITM) and network sniffers from sniffing the traffic which could expose valuable information. The SSL certs ensure privacy, integrity, and identification.
-The purpose of the monitoring clients.
-The monitoring clients are for monitoring the servers and the external network. They analyse the performance and operations of the servers, measure the overall health, and alert the administrators if the servers are not performing as expected. The monitoring tool observes the servers and provides key metrics about the servers' operations to the administrators. It automatically tests the accessibility of the servers, measures response time, and alerts for errors such as corrupt/missing files, security vulnerabilities/violations, and many other issues.
-Issues With This Infrastructure
-Terminating SSL at the load balancer level would leave the traffic between the load balancer and the web servers unencrypted.
-Having one MySQL server is an issue because it is not scalable and can act as a single point of failure for the web infrastructure.
-Having servers with all the same components would make the components contend for resources on the server like CPU, Memory, I/O, etc., which can lead to poor performance and also make it difficult to locate the source of the problem. A setup such as this is not easily scalable.
+#### The purpose of the SSL certificate:
+The SSL certificate is used for encrypting the traffic between the web servers and the external network. Its primary goal is to prevent man-in-the-middle attacks (MITM) and network sniffing. The SSL certificate ensures the privacy, integrity, and identification of data being transmitted. It guarantees that sensitive information remains confidential and secure during communication.
+
+#### The purpose of the monitoring clients:
+Monitoring clients are essential for keeping a close watch on the servers and the external network. They analyze server performance and operations, providing insights into the overall health of the infrastructure. These monitoring tools are designed to alert administrators if the servers are not performing as expected. They automatically test server accessibility, measure response times, and detect various issues, such as corrupt or missing files, security vulnerabilities, and other problems.
+
+### Issues with this infrastructure:
+
+1. Terminating SSL at the load balancer level: While the SSL termination at the load balancer level enhances security, it leaves the traffic between the load balancer and the web servers unencrypted. This can be a potential security concern if there is a need to secure the entire data path. Sensitive information may still be vulnerable in this segment of the network.
+2. Single MySQL server: The infrastructure's reliance on a single MySQL server is problematic in terms of scalability and fault tolerance. It acts as a single point of failure, meaning that if the MySQL server goes down, the web infrastructure could become inaccessible. To address this issue, a more robust and scalable database setup is needed.
+3. Uniform servers: All the servers in this infrastructure have the same components, which can result in resource contention (CPU, memory, I/O, etc.). This contention can lead to poor performance and make it challenging to identify the source of problems. A setup like this isn't easily scalable and might not efficiently utilize resources. To optimize performance and scalability, server resources should be allocated based on the specific roles and demands of each component.
