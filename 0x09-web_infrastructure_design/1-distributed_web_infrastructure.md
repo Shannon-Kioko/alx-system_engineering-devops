@@ -1,6 +1,7 @@
 ## Distributed Web Infrastructure
 
-<img src="#">
+![1-distributed_web_infrastructure](https://github.com/Shannon-Kioko/alx-system_engineering-devops/assets/79745456/fef8ebd4-2482-4584-9d36-e9783a4713f4)
+>
 
 ### Description
 
