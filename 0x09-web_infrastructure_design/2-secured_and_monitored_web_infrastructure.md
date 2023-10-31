@@ -1,7 +1,7 @@
 ### Description:
 This is a 3-server web infrastructure designed to be secure, monitored, and to serve encrypted traffic. It is built to protect against unauthorized access, ensure privacy through encryption, and continuously monitor the servers and network for performance and security.
 
-<img href="https://imgur.com/9ExiESl">
+![9ExiESl](https://github.com/Shannon-Kioko/alx-system_engineering-devops/assets/79745456/eb24648f-e5d3-4094-a5c6-ed419ad84ca1)
 
 ### Specifics About This Infrastructure:
 #### The purpose of the firewalls:
