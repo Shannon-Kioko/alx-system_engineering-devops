@@ -1,6 +1,7 @@
 ## Simple Web Infrastructure
 
-<img src="#">
+![0-simple_web_stack](https://github.com/Shannon-Kioko/alx-system_engineering-devops/assets/79745456/8b690adc-a1cd-4ab9-893b-648ec5286b4a)
+
 
 ### Description
 
