@@ -1,7 +1,7 @@
-# a manifest that kills a process named killmenow.
-exec { 'kill_killmenow_process':
-  command     => 'pkill -f killmenow',
-  path        => ['/bin', '/usr/bin'],
-  onlyif      => 'pgrep -f killmenow',
-  refreshonly => true,
+# Manifest for terminating a process named killmenow using pkill
+
+exec { 'pkill_killmenow_process':
+  command  => 'pkill killmenow',  # Use pkill to terminate the process named killmenow
+  provider => 'shell',             # Use the shell provider for command execution
+  onlyif   => 'pgrep killmenow',   # Check if the process is running before executing the command
 }
