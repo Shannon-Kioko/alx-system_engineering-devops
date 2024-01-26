@@ -1,7 +1,7 @@
 # 0x0E. Web stack debugging #1
 
-- [Network Basics]
-- [Web Stack Debugging]
+- [Network Basics](https://github.com/Shannon-Kioko/alx-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0#network-basics)
+- [Web Stack Debugging](https://github.com/Shannon-Kioko/alx-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0#web-stack-debugging)
 
 ### [0. Nginx likes port 80](0-nginx_likes_port_80)
 Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port `80`. Feel free to install whatever tool you need, start and destroy as many containers as you need to debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
