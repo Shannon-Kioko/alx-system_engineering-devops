@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script runs the whoami command under the user passed as an argument
+if [ "$#" -ne 0 ]
+then
+        chsh -s /bin/bash "$1" &>/dev/null
+fi
+su - "$1" -c 'whoami'
