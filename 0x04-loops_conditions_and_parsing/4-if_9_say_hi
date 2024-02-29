@@ -4,12 +4,11 @@
 # Using While loop and if statement
 
 counter=1
-while [ $counter -le 10 ]
+while [ $((counter++)) -lt 10 ];
 do
     echo "Best School"
-    if [[ "$counter" == '9' ]]
+    if [ $counter -eq '9' ];
     then
         echo "Hi"
     fi
-    ((counter++))
 done
