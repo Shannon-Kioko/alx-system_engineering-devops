@@ -3,7 +3,7 @@
 # For the 9th iteration, displays Best School and then Hi on a new line.
 # Using While loop and if statement
 
-counter=1
+counter=0
 while [ $((counter++)) -lt 10 ];
 do
     echo "Best School"
