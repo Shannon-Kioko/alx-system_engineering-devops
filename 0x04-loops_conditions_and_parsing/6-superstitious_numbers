@@ -4,7 +4,7 @@
 
 counter=0
 while [ $((counter++)) -lt 20 ];do
-    # echo $counter
+    echo $counter
     case $counter in
         "4")
             echo "bad luck from China"
@@ -14,9 +14,6 @@ while [ $((counter++)) -lt 20 ];do
             ;;
         "17")
             echo "bad luck from Italy"
-            ;;
-        *)
-            echo "$counter"
             ;;
     esac
 done
