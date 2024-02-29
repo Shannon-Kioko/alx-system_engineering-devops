@@ -3,7 +3,7 @@
 # Part of the name after the first dash is displayed
 # Uses for loop
 
-for _ in *
+for file in *;
 do
-    echo "$_" | cut -f 2 -d '-'
+    echo "$file" | cut -f 2 -d '-'
 done
