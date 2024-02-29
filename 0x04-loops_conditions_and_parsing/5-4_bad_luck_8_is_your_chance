@@ -3,7 +3,7 @@
 # except for the 4th("bad luck") and 8th("good luck") iterations
 # Using the while loop, if, elif, else statements
 
-counter=1
+counter=0
 while [ $((counter++)) -lt 10 ]
 do
     if [[ $counter -eq 4 ]]
